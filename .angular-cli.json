@@ -20,13 +20,14 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/owl.carousel/dist/assets/owl.carousel.css"
       ],
       "scripts": [
         "../node_modules/tether/dist/js/tether.js",
         "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
-
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/owl.carousel/dist/owl.carousel.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

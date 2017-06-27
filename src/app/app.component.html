@@ -17,3 +17,9 @@
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
 </ul>
+<owl-carousel
+    [options]="{items: 3, dots: false, navigation: false}">
+    <div *ngFor="let hero of heroes">
+        <div>{{hero.name}}</div>
+    </div>
+</owl-carousel>
