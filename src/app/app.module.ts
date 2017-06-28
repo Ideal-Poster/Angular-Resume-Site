@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { OwlModule } from 'ng2-owl-carousel';
+import { OwlModule } from 'angular-owl-carousel';
 
 @NgModule({
   declarations: [
