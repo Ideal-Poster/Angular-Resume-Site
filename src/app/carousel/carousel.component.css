@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Halcyon";
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -6px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+.titles {
+  padding-left: 20px;
+  padding-top: 60px;
+}
+.bla {
+  height:200px;
+  min-width:230px;
+  background: rebeccapurple;
+}
+.owl-carousel .item {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+}
+.carousel-item {
+  height:200px;
+  min-width:230px;
+  background:darkblue;
+}

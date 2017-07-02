@@ -1,0 +1,17 @@
+<div class="col-md-6 header">
+  <h1>
+    MALCOLM <br>
+    GOURDINE
+  </h1>
+</div>
+<owl-carousel
+  [options]="{
+    center: true,
+    items:2,
+    loop:true,
+    margin:10
+  }">
+  <div *ngFor="let hero of heroes">
+      <div class="bla">{{hero.name}}</div>
+  </div>
+</owl-carousel>
