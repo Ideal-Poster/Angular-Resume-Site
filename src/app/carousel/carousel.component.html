@@ -1,17 +1,20 @@
-<div class="col-md-6 header">
-  <h1>
-    MALCOLM <br>
-    GOURDINE
-  </h1>
-</div>
 <owl-carousel
+  #owlElement
   [options]="{
     center: true,
     items:2,
     loop:true,
-    margin:10
+    margin:10,
+    onChanged: callback
   }">
-  <div *ngFor="let hero of heroes">
-      <div class="bla">{{hero.name}}</div>
+  <div *ngFor="let project of projects">
+    <div class="bla">{{ project.title }}</div>
   </div>
 </owl-carousel>
+
+<div class="row">
+    <div *ngFor="let project of projects; let i = index"
+      class="titles col-md-6 col-lg-4">
+      <h2 on-mouseover="hoverSelect(i)"> {{ project.title }} </h2>
+    </div>
+</div>
