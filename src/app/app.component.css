@@ -1,8 +1,6 @@
 :host{
   display: block;
-  background: #1e1f24;
+  background: #1a1a1e;
+  position: relative;
   min-height: 100vh;
-}
-.container-fluid {
-  max-width: 1200px;
 }

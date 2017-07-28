@@ -1,0 +1,26 @@
+:host{
+  display: block;
+  padding: 40px 0px 70px 0px;
+}
+
+.header {
+  background: transparent;
+  /*background: blue;*/
+}
+
+.navbar, .collapse, ul.navbar-nav, li.nav-item, a  {
+    color: white;
+}
+
+.navbar {
+  font-size: 20px;
+  color: white;
+}
+
+.header-row-2 {
+  transform: translateY(-15px);
+}
+
+.about {
+  transform: translateX(-100px);
+}

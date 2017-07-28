@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: Halcyon;
-    src: url("assets/fonts/Halcyon/Halcyon-SemiBold.otf");
+    font-family: "Halcyon";
+    src: url("assets/fonts/Halcyon/Halcyon-Regular.otf");
+}
+@font-face {
+    font-family: "CerebriSans";
+    src: url("assets/fonts/Cerebri-Sans/CerebriSans-Light.otf");
 }

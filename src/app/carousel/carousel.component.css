@@ -1,12 +1,11 @@
-h1 {
+
+:host {
   font-family: "Halcyon";
-  font-size: 110px;
-  line-height: 110px;
-  letter-spacing: -6px;
+}
+
+h1 {
+  font-size: 80px;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding-left: 20px;
 }
 
 h2 {
@@ -17,7 +16,7 @@ h2 {
 }
 
 .bla {
-  height: 200px;
+  height: 340px;
   min-width: 230px;
   background: rebeccapurple;
 }
@@ -30,4 +29,7 @@ h2 {
   height: 200px;
   min-width: 230px;
   background: darkblue;
+}
+.image {
+  height: 300px;
 }

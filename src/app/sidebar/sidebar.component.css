@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  background: #1e1f24;
+  width: 350px;
+  height: 100vh;
+  /*margin-right: 0;
+  margin-left: auto;*/
+  right: 0;
+  position: fixed;
+}
+.sidebar-container {
+  padding-top: 25vh;
+  margin-left: 40px;
+}
+.project-titles {
+  color: white;
+  font-family: "Halcyon";
+  font-size: 16.5px;
+  /*font-family: "CerebriSans";*/
+  letter-spacing: 1.8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
